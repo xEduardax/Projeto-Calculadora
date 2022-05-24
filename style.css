@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+header {
+    font-size: 35px;
+    font-family: 'play';
+    height: 130px;
+    text-align: center;
+    padding: 30px;
+    background-image: linear-gradient(to bottom, #17A2B8, #5eb6c4);
+    color: #4d4b4b;
+}
+
+#inputCalculadora{
+    font-size: 24px;
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.areaCalculadora {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.418);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.row div {
+  padding: 1px;
+}
+
+.row div button {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    background-image: linear-gradient(to bottom, #17A2B8, #5eb6c4);
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: #525252;
+    text-decoration: none;
+}
